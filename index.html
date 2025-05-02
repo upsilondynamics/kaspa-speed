@@ -31,7 +31,7 @@
     </style>
 </head>
 <body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen p-4">
-    <h1 class="text-3xl font-bold mb-8 text-center">Blockchain Speed Visualization</h1>
+    <h1 class="text-3xl font-bold mb-8 text-center">Blockchain Block Speed Visualization</h1>
 
     <div class="space-y-6 w-full max-w-3xl" id="chains">
         <!-- Chains will be injected here by JavaScript -->
@@ -44,10 +44,10 @@
     <script>
         const chains = [
             { name: 'Kaspa (10 Blocks/sec)', speed: 10, color: 'bg-green-500' },
-            { name: 'Kaspa (1 Block/sec)', speed: 1, color: 'bg-teal-500' },
+            { name: 'Solana (~2.5 Blocks/sec)', speed: 2.5, color: 'bg-blue-500' },
             { name: 'HyperLiquid (~2 Blocks/sec)', speed: 2, color: 'bg-indigo-500' },
+            { name: 'Kaspa (1 Block/sec)', speed: 1, color: 'bg-teal-500' },
             { name: 'SUI (~0.5 Blocks/sec)', speed: 0.5, color: 'bg-purple-500' },
-            { name: 'Solana (~0.4 Blocks/sec)', speed: 0.4, color: 'bg-blue-500' },
             { name: 'Ethereum (~0.07 Blocks/sec)', speed: 0.07, color: 'bg-orange-500' },
             { name: 'Litecoin (~0.016 Blocks/sec)', speed: 0.016, color: 'bg-red-500' },
             { name: 'Bitcoin (~0.000166 Blocks/sec)', speed: 0.000166, color: 'bg-yellow-500' },
